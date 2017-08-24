@@ -10,6 +10,14 @@ logging:
 endpoints:
   restart: enabled
 
+security:
+  basic:
+    enabled: false
+    
+management:
+  security:
+    enabled: false
+
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
