@@ -21,9 +21,6 @@ management:
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
-  client:
-    region: default
-    registryFetchIntervalSeconds: 5
 
 ribbon:
   ServerListRefreshInterval: 5000
